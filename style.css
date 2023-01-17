@@ -234,6 +234,7 @@ main {
   ul {
     flex-direction: column;
     align-items: unset;
+    background-color: #0d0000;
   }
   header > nav {
     height: 105px;
@@ -251,6 +252,7 @@ main {
     border: none;
     /* border: 0px solid white; */
     padding: 35px;
+    background-color: #0d0000;
   }
   ul {
     text-align: center;
