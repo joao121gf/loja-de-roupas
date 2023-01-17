@@ -179,7 +179,7 @@ nav {
   background-repeat: no-repeat;
   background-attachment: scroll;
   /* background-size: 100%; */
-  background-size: contain;
+  background-size: cover;
   height: 334px;
   width: 100%;
   resize:both;
