@@ -211,31 +211,18 @@ div.masc-fem{
 
 
 
+main {
+  height: 200px;
+  width: 100%;
+  background-color: #737065;
+}
 
-@media (max-width: 1180px ) {
-  nav {
-    background-image: none;
-    
-  }
 
-  
-
-  nav {
-    height: 100%;
+@media (max-width: 1211px) {   
+  header > nav {
     width: 100%;
-    background-color: #525759;
-    background-image: url(../elementos/imagens/with-off-medio.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: contain;
-
-
+    height: 480px;
   }
-  div.masc-fem{
-    display: none;
-  }
-
 }
   
 
@@ -274,11 +261,13 @@ div.masc-fem{
     display: none;
     transition: all .5s;
     
+    
   }
   a > li {
     border: none;
     margin: 0px;
     background-color: #191919;
+    border-radius: 0px;
     
   }
 
