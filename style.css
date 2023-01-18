@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: Titulo;
-  src: url(elementos/fontes/Early\ Man.otf) format("opentype");
+  src: url(./elementos/fontes/Early\ Man.otf) format("opentype");
   font-weight: bold;
 }
 @font-face {
   font-family: Subtitulo;
-  src: url(elementos/fontes/Oswald-VariableFont_wght.ttf) format("truetype");
+  src: url(./elementos/fontes/Oswald-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
   font-family: nunito;
-  src: url(elementos/fontes/Nunito-Bold.ttf) format("truetype");
+  src: url(./elementos/fontes/Nunito-Bold.ttf) format("truetype");
 }
 
 /*  Cores: 
@@ -173,7 +173,7 @@ button:focus ~ ul {
   
 }
 nav {
-  background-image: url(elementos/imagens/with-off.jpg);
+  background-image: url(./elementos/imagens/with-off.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -293,7 +293,7 @@ main {
     background-color: #212026;
     height: 334px;
     width: 100%;
-    background-image: url(elementos/imagens/definitivo.jpg);
+    background-image: url(./elementos/imagens/definitivo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
