@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;800&display=swap");
+
+@font-face {
+  font-family: Titulo;
+  src: url(./elementos/fontes/Early\ Man.otf) format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Subtitulo;
+  src: url(./elementos/fontes/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(./elementos/fontes/Nunito-Bold.ttf) format("truetype");
+}
+
+/*  Cores: 
+    Preto: #0D0000
+    preto escuro: #212026
+    cinza escuro: #525759
+    cinza amarrontado:  #737065
+    branco escuro: #D7D9D8
+*/
+
+:root {
+  --preto: #0d0000;
+  --preto-escuro: #212026;
+  --cinza-escuro: #525759;
+  --cinza-amarrontado: #737065;
+  --branco-escuro: #d7d9d8;
+
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --nunito: "Nunito", sans-serif;
+   
+}
+
+
+.bloco-roupas {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.bloco-roupas > h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 5.5em;
+    font-family: var(--Subtitulo) sans-serif;
+    font-variant: small-caps;
+    color: black;
+
+}
+
+.bloco-roupas > p {
+    padding-top: 50px;
+    font-family: var(--Subtitulo);
+    font-size: 1.2em;
+    color: black;
+}
