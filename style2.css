@@ -42,10 +42,10 @@
     width: 100%;
     height: 200px;
     background-color: white;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -67,4 +67,82 @@
     font-family: var(--Subtitulo);
     font-size: 1.2em;
     color: black;
+}
+
+
+/* Configurando as fotos das roupas */
+div > .roupas img {
+  max-width: 100%;
+  height: auto;
+  min-width: 140px;
+  transition: transform 0.3s;
+  box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.61);
+}
+
+div > .roupas img:hover{
+  transform: scale(1.08);
+
+}
+
+.carrinho{
+  width: initial;
+  height: initial;
+  position: initial;
+  right: initial;
+  padding: 11px 29px;
+  background-color: #0d00006e;
+  color: rgb(255, 255, 255);
+  display: block;
+  position: absolute;
+  top: 59%;
+  left: 11.5%;
+  transform: translate(-24%, 27%);
+  font-size: 1.4vw;
+  text-align: center;
+  border-radius: 5px;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.74);
+}
+
+.carrinho:hover {
+  cursor: pointer;
+  /* background-color: var(--cinza-escuro); */
+  font-size: initial;
+  background-color: aqua;
+
+}
+/* Terminando conf das fotos de roupas */
+
+
+div > .roupas {
+  
+  margin: 0px;
+  padding: 0px;
+  align-items: left;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column: 2;
+  padding-bottom: 200px;
+  gap: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  
+}
+
+@media (max-width: 1207px) {
+  div > .roupas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-left: 15%;
+
+  }
+  div > .roupas img {
+    max-width: 75%;
+    height: auto;
+    min-width: 140px;
+  
+  }
+
 }
