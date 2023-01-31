@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;900&display=swap');
+
+@font-face {
+  font-family: Titulo;
+  src: url(./elementos/fontes/Early\ Man.otf) format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Subtitulo;
+  src: url(./elementos/fontes/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(./elementos/fontes/Nunito-Bold.ttf) format("truetype");
+}
+
+:root {
+    --preto: #0d0000;
+    --preto-escuro: #212026;
+    --cinza-escuro: #525759;
+    --cinza-amarrontado: #737065;
+    --branco-escuro: #d7d9d8;
+  
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --nunito: "Nunito", sans-serif;
+     
+  }
+
+
+
+
+
+.banner-elegante {
+    background-image: url(./elementos/imagens/fundo-elegante/homem-terno.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    margin-bottom: 200px;
+    position: relative;
+    word-wrap: break-word;
+
+}
+
+
+.oi {
+    /* background-color: rgba(0, 255, 255, 0.144); */
+    height: 62vh;
+    width: 38vw;
+    position: absolute;
+    top: 11%;
+    left: 57%;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    
+}
+
+
+.clique { 
+    color: #FF670A;
+    font-weight: 500;
+    font-size: 5.5vw;
+    padding-right: 1vw;
+    transition: text-shadow 0.2s ease;
+    
+}
+
+.divi {
+    padding-top: 2.5vh;
+    text-shadow: 4px 5px 5px black;
+}
+
+
+.clique:hover {
+    text-shadow: 2px 4px white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
