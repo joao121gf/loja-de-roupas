@@ -83,34 +83,33 @@ div > .roupas img:hover{
   transform: scale(1.08);
 
 }
-
-.carrinho{
-  width: initial;
-  height: initial;
-  position: initial;
-  right: initial;
-  padding: 11px 29px;
-  background-color: #0d00006e;
-  color: rgb(255, 255, 255);
-  display: block;
-  position: absolute;
-  top: 59%;
-  left: 11.5%;
-  transform: translate(-24%, 27%);
-  font-size: 1.4vw;
-  text-align: center;
-  border-radius: 5px;
-  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.74);
-}
-
-.carrinho:hover {
-  cursor: pointer;
-  /* background-color: var(--cinza-escuro); */
-  font-size: initial;
-  background-color: aqua;
-
-}
 /* Terminando conf das fotos de roupas */
+
+/* Estilizando os preços */
+p.preco {
+  /* position: absolute; */
+  top: 75%;
+  right: 88.4%;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 45px;
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding-top: 25px;
+  font-size: 1.2em;
+
+}
+
+
+
+
+
+/* Terminando estilização de preços */
 
 
 div > .roupas {
@@ -118,7 +117,7 @@ div > .roupas {
   margin: 0px;
   padding: 0px;
   align-items: left;
-  padding-top: 100px;
+  padding-top: 140px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column: 2;
