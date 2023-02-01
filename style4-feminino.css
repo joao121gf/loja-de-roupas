@@ -31,5 +31,49 @@
 
 
 
+.feminino {
+    width: 92%;
+    height: 600px;
+    background-color: #525759;
+    position: absolute;
+    top: 100%;
+    margin-top: 25vh;
+    /* margin-left: 5%; */
+    /* margin-right: 5vw; */
+    left: 4.3%;
+    margin-bottom: 50px;
+    
+}
 
-  
+.feminino > h2 {
+    font-size: 2.5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.grid-feminino {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 200px;
+    gap: 8.1vw;
+    /* padding-left: 0%; */
+    /* padding-right: 5%; */
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    min-width: 140px;
+    transition: transform 0.3s;
+
+}
+
+.responsivo {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    box-shadow: 2px 1px 8px rgb(0 0 0 / 61%);
+}
+
+.responsivo:hover {
+    transform: scale(1.08);
+}
