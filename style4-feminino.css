@@ -34,7 +34,7 @@
 .feminino {
     width: 92%;
     height: 600px;
-    background-color: #525759;
+    background-color: white;
     position: absolute;
     top: 100%;
     margin-top: 25vh;
@@ -46,9 +46,12 @@
 }
 
 .feminino > h2 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     margin: 0px;
     padding: 0px;
+    color: black;
+    padding-bottom: 20px;
+    font-variant: small-caps;
 }
 
 
@@ -59,11 +62,11 @@
     gap: 8.1vw;
     /* padding-left: 0%; */
     /* padding-right: 5%; */
-    position: absolute;
     max-width: 100%;
     height: auto;
     min-width: 140px;
     transition: transform 0.3s;
+    position: relative;
 
 }
 
