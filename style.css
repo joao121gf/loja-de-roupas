@@ -36,7 +36,9 @@
   --nunito: "Nunito", sans-serif;
    
 }
-
+*{
+  -webkit-user-select: none;
+}
 
 h1 {
   font-family: Titulo;
