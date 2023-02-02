@@ -90,11 +90,18 @@
     min-width: 140px;
     padding-left: 10%;
     padding-right: 5%;
+
   }
 }
 
 @media only screen and (max-width: 600px) {
   .grid-feminino {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: scroll;
+
+  }
+  .grid-feminino::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
   }
 }
