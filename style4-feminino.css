@@ -56,18 +56,18 @@
 
 
 .grid-feminino {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-bottom: 200px;
-    gap: 8.1vw;
-    /* padding-left: 0%; */
-    /* padding-right: 5%; */
-    max-width: 100%;
-    height: auto;
-    min-width: 140px;
-    transition: transform 0.3s;
-    position: relative;
-
+  margin: 0px;
+  padding: 0px;
+  align-items: left;
+  padding-top: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column: 2;
+  padding-bottom: 200px;
+  gap: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
 }
 
 .responsivo {
@@ -79,4 +79,22 @@
 
 .responsivo:hover {
     transform: scale(1.08);
+}
+
+
+@media (max-width: 1207px) {
+  .grid-feminino{
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 75%;
+    height: auto;
+    min-width: 140px;
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-feminino {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

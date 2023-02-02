@@ -203,9 +203,9 @@ div > .roupas {
     min-width: 140px;
   
   }
-
-  .grid-feminino{
-    grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 600px) {
+  div > .roupas {
+    grid-template-columns: repeat(1, 1fr);
   }
-
 }
