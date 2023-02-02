@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;900&display=swap');
+
+@font-face {
+  font-family: Titulo;
+  src: url(./elementos/fontes/Early\ Man.otf) format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Subtitulo;
+  src: url(./elementos/fontes/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(./elementos/fontes/Nunito-Bold.ttf) format("truetype");
+}
+
+:root {
+    --preto: #0d0000;
+    --preto-escuro: #212026;
+    --cinza-escuro: #525759;
+    --cinza-amarrontado: #737065;
+    --branco-escuro: #d7d9d8;
+  
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --nunito: "Nunito", sans-serif;
+     
+  }
+
+
+
+.masculino {
+    width: 101%;
+    height: 601px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    /* margin-left: 5%; */
+    /* margin-right: 5vw; */
+    left: 0.1%;
+    margin-bottom: 50px
+}
+
+.masculino > h2 {
+    font-size: 3.5em;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+}
+
+
+.grid-masculino{
+  margin: 0px;
+  padding: 0px;
+  align-items: left;
+  padding-top: 37px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column: 2;
+  padding-bottom: 200px;
+  gap: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+}
+
+.responsivo {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    box-shadow: 2px 1px 8px rgb(0 0 0 / 61%);
+}
+
+.responsivo:hover {
+    transform: scale(1.08);
+}
+
+
+@media (max-width: 1207px) {
+  .grid-masculino{
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 75%;
+    height: auto;
+    min-width: 140px;
+    padding-left: 13%;
+    padding-right: 5%;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.grid-masculino {
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: scroll;
+    padding-top: 6px;
+
+  }
+  .grid-masculino::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+  }
+}
+
+.bloco-roupas > p {
+  font-size: 1.4em;
+}
