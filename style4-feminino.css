@@ -59,7 +59,7 @@
   margin: 0px;
   padding: 0px;
   align-items: left;
-  padding-top: 140px;
+  padding-top: 37px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column: 2;
@@ -98,10 +98,15 @@
   .grid-feminino {
     grid-template-columns: repeat(4, 1fr);
     overflow-x: scroll;
+    padding-top: 6px;
 
   }
   .grid-feminino::-webkit-scrollbar{
     width: 0;
     background-color: transparent;
   }
+}
+
+.bloco-roupas > p {
+  font-size: 1.4em;
 }
