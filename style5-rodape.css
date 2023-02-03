@@ -1,7 +1,92 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;800&display=swap");
+
+@font-face {
+  font-family: Titulo;
+  src: url(./elementos/fontes/Early\ Man.otf) format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Subtitulo;
+  src: url(./elementos/fontes/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: nunito;
+  src: url(./elementos/fontes/Nunito-Bold.ttf) format("truetype");
+}
+
+
 .rodape {
     position: absolute;
-    bottom: 0;
-    bottom: 400%;
+    background-color: #191919;
+    width: 108.9%;
+    height: 370px;
+    margin-left: -6%;
+    text-align: center;
 }
+
+
+.textos-rodape{
+    padding-top: 48px;
+    font-family: Subtitulo;
+    font-size: 1.5em;
+}
+
+.rodape  h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 2.5em;
+}
+
+
+.icones-sociais {
+    padding-top: 25px;
+}
+
+.icones-sociais > img {
+    width: 2.50vw;
+    padding: 0px 7px;
+    transition: all 0.1s ease-in-out;
+}
+
+
+.meu-rodape {
+    margin-top: 77px;
+    background-color: black;
+    padding: 10px 0px;
+    padding-bottom: 15px;
+}
+
+.meu-rodape  a {
+    color: #FF670A;
+}
+
+
+@media (max-width: 1207px) {
+    .icones-sociais > img {
+        width: 4vw;
+    }
+    .rodape{
+        width: 120.2%;
+    }
+}
+
+
+.teste {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: black;
+}
+
+
+
+
+.icones-sociais > img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
