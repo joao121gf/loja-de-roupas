@@ -69,7 +69,7 @@
         width: 4vw;
     }
     .rodape{
-        width: 120.2%;
+        width: 108.9%;
     }
 }
 
@@ -87,6 +87,13 @@
 .icones-sociais > img:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .rodape{
+        width: 109%;
+    }
 }
 
 

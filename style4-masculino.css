@@ -40,7 +40,9 @@
     /* margin-left: 5%; */
     /* margin-right: 5vw; */
     left: 0.1%;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    margin-top: 16%;
+    
 }
 
 .masculino > h2 {
@@ -50,6 +52,7 @@
     color: black;
     padding-bottom: 20px;
     font-variant: small-caps;
+    
 }
 
 
