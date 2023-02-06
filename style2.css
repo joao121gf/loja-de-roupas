@@ -140,6 +140,7 @@ p.preco {
   transition: transform 0.1s ease-in-out;
   border-radius: 5px;
   margin-left: 4%;
+  cursor: pointer;
   
 }
 
