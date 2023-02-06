@@ -70,6 +70,9 @@
 
 }
 
+.caixa {
+  background-color: #0d000056;
+}
 .responsivo {
     max-width: 100%;
     height: auto;
