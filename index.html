@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style4-feminino.css">
     <link rel="stylesheet" href="style4-masculino.css">
     <link rel="stylesheet" href="style5-rodape.css">
+    
 
 <body>
     <header>
@@ -27,37 +28,38 @@
             </div>
 
             <button>&#9776;</button>
-            <ul style="color: aliceblue;" id="itens">
+            <ul style="color: aliceblue;" id="itens" class="menuu">
 
-                <a href="#">
-                    <li>Masculino</li>
+                <a href="#div-masc" > 
+                    <li >Masculino</li>
                 </a>
-                <a href="#">
+                <a href="#div-fem">
                     <li>Feminino</li>
                 </a>
-                <a href="#">
+                <a href="#div-contato">
                     <li>Contato</li>
                 </a>
             </ul>
         
         </nav>
-        <div class="fundo-medio" style="column-count: 2;"> </div>
-        <p>
-            <div class="fundo-azul">
-            </div>
-        </p>
-        
+
+        <div class="fundo">
+
+        </div>
         
 
 
     </header>
     <main> 
-        <div class="bloco-roupas">
+        <div class="bloco-roupas" >
             <h1>Mais vendidos</h1>
             <p style="text-align: center;">Descubra a próxima peça Clotstell para adicionar a sua coleção</p>
             <div class="roupas">
                 <div><img src="elementos/imagens/roupas/moça-de-rosa-pq2.jpg" alt="primeira-roupa">
-                    <p class="nome">VESTIDO LONGO
+                    <div>
+                        
+                    </div>
+                    <p class="nome" >VESTIDO LONGO
                         <p class="preco"> R$59.90</p>
                         <p class="adcionar-carrinho">
                            <img src="elementos/imagens/carrinho-branco-2.png" alt="carrinho" id="carrinho"> ADD TO CART
@@ -114,7 +116,7 @@
                 </div>
                 <div class="feminino">
                     <hr>
-                    <h2>Feminino</h2>
+                    <h2 id="div-fem">Feminino</h2>
                     <div class="grid-feminino">
                         <div>
                             <img class="responsivo" src="elementos/imagens/feminino/rosa-1-pq.jpg" alt="Imagem de um vestido rosa">
@@ -152,8 +154,8 @@
         
             <div class="masculino">
                 <hr style="color: black;" width="100%">
-                <h2>Masculino</h2>
-            <div class="grid-masculino">
+                <h2  id="div-masc">Masculino</h2>
+            <div class="grid-masculino" >
                 <div>
                     <img class="responsivo" src="elementos/imagens/masculino/camisa-preta-1-pq.jpg" alt="Imagem de um vestido rosa">
                     <p class="nome">CAMISETA PRETA
@@ -190,7 +192,7 @@
                         </p>
                 </div>
             </div>
-                <footer class="rodape">
+                <footer class="rodape" id="div-contato">
                     <div class="textos-rodape">
                         <h2>Clotstell</h2>
                         <P>Vista-se com estilo, escolha o nosso site!</P>

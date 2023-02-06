@@ -34,11 +34,12 @@
 
   --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
   --nunito: "Nunito", sans-serif;
-   
 }
-*{
+* {
   -webkit-user-select: none;
 }
+
+
 
 h1 {
   font-family: Titulo;
@@ -67,7 +68,6 @@ header > nav {
   width: 88px;
   margin-left: 110px;
   margin-top: 40px;
-  
 }
 
 p {
@@ -78,7 +78,6 @@ a {
   height: 50px;
   text-decoration: none;
   margin: 16px 6px;
-  
 }
 
 ul {
@@ -92,14 +91,11 @@ ul {
   text-decoration: none;
   margin-right: 23px;
   padding-top: 0px;
-  
-
 }
 
 nav {
   justify-content: space-between;
 }
-
 
 li {
   padding: 11px 22px;
@@ -107,7 +103,7 @@ li {
   text-decoration: none;
   font-family: "nunito";
   text-transform: uppercase;
-  transition: all .2s;
+  transition: all 0.2s;
   border: 1px solid rgba(255, 255, 255, 0.596);
   font-size: 13px;
   font-weight: 800;
@@ -118,20 +114,11 @@ li {
   border-radius: 4px;
 }
 
-
-
-
 li:hover {
   background-color: black;
   /* margin-top: 0px; */
   text-decoration: none;
-  
-
-
 }
-
-
-
 
 h1 {
   padding-left: 70px;
@@ -143,7 +130,7 @@ h1 {
   width: 110px;
   /* padding-left: 70px; */
   /* padding-top: 10px; */
-  transition: all .5s;
+  transition: all 0.5s;
   background-color: #0d000056;
   margin-top: 13px;
   margin-left: 55px;
@@ -172,8 +159,6 @@ button:hover {
 button:focus ~ ul {
   display: block;
   background-color: black;
-  
-  
 }
 nav {
   background-image: url(./elementos/imagens/with-off.jpg);
@@ -186,7 +171,17 @@ nav {
   width: 100%;
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
-  
+}
+
+fundo{
+  height: 334px;
+  width: 100%;
+  background-image: url(./elementos/imagens/with-off.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* background-size: 100%; */
+  background-size: cover;
 }
 
 @keyframes fadeIn {
@@ -198,47 +193,37 @@ nav {
   }
 }
 
-.masc-fem a{
+.masc-fem a {
   background-color: #212026;
   padding: 10px 25px;
   margin-top: 20px;
   border-radius: 20px;
   font-size: 20px;
-  color: #FF670A;
-  font-family: 'Nunito';
+  color: #ff670a;
+  font-family: "Nunito";
   text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.603);
 }
 
 .masc-fem a:hover {
   padding: 12px 28px;
-  transition: all .1s;
+  transition: all 0.1s;
 }
 
-
-
-div.masc-fem{
+div.masc-fem {
   margin-top: 611px;
   height: 50px;
   margin-left: -200px;
 }
 
-
-
-
-
-
-@media (max-width: 1211px) {   
+@media (max-width: 1211px) {
   header > nav {
     width: 100%;
     height: 480px;
   }
 }
-  
-
-
 
 /* Quando a resolução estiver baixa */
-@media (max-width: 707px) {   
+@media (max-width: 707px) {
   nav,
   ul {
     flex-direction: column;
@@ -248,7 +233,6 @@ div.masc-fem{
   header > nav {
     height: 105px;
     background-color: #191919;
-    
   }
   .imagem-logo {
     justify-content: center;
@@ -270,18 +254,14 @@ div.masc-fem{
     margin: 0px;
     height: 0px;
     display: none;
-    transition: all .5s;
-    
-    
+    transition: all 0.5s;
   }
   a > li {
     border: none;
     margin: 0px;
     background-color: #191919;
     border-radius: 0px;
-    
   }
-
 
   button {
     display: flex;
@@ -296,7 +276,6 @@ div.masc-fem{
   }
   nav {
     background-image: none;
-    
   }
   .fundo-azul {
     background-color: #212026;
@@ -308,12 +287,6 @@ div.masc-fem{
     background-attachment: scroll;
     background-size: cover;
   }
-  
 }
 
-
-
-
 /* Mudando o background do header */
-
-
